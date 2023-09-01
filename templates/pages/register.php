@@ -14,7 +14,7 @@
             <label for="password1">Repetir Contraseña:</label>
             <input type="password" name="password1" required>
             <input type="submit" value="REGISTRAR">
-            <a href="index">INICIAR SESIÓN</a>
+            <a href="index.php">INICIAR SESIÓN</a>
         </form>
     </div>
     <div class="logo">

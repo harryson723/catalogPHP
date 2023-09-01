@@ -12,7 +12,7 @@
             <label for="password">Contraseña:</label>
             <input type="password" name="password" required>
             <input type="submit" value="INICIAR SESIÓN">
-            <a href="register">REGISTRAR</a>
+            <a href="register.php">REGISTRAR</a>
         </form>
     </div>
 <div class="logo">
