@@ -90,3 +90,14 @@ body {
 .login-form a:hover {
     background-color: #c6341a;
 }
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-start;
+}
+
+.logo img {
+    width: 40%;
+}

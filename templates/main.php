@@ -15,6 +15,9 @@
             <a href="register">REGISTRAR</a>
         </form>
     </div>
+<div class="logo">
+    <img src="./public/assest/img/yanbal.png" alt="" srcset="">
+</div>
 </div>
 
 <script>

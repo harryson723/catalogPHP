@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="./public/assest/css/loginStyles.css">
 <?php $this->stop() ?>
 <div class="container">
-<div class="filter"></div>
+    <div class="filter"></div>
     <div class="login-container">
         <h2>Iniciar sesión</h2>
         <form class="login-form" method="post" action="./api/register.php">
@@ -16,5 +16,8 @@
             <input type="submit" value="REGISTRAR">
             <a href="index">INICIAR SESIÓN</a>
         </form>
+    </div>
+    <div class="logo">
+        <img src="./public/assest/img/yanbal.png" alt="" srcset="">
     </div>
 </div>
