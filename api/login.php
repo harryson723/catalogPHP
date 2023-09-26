@@ -13,11 +13,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $row = $result->fetch_assoc();
         if (password_verify($password, $row["password"])) {
             // Redirigir a la página protegida
-            header("Location: ../index.php?alert=credenciales correctas");
+            header("Location: ../pages/catalog.php");
             exit();
         }
     } else {
-        header("Location: ../index.php?alert=credenciales incorrectas");
+        header("Location: ../pages/index.php?alert=credenciales incorrectas");
         exit();
     }
 

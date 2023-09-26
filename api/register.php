@@ -18,9 +18,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Insertar nuevo usuario en la base de datos
         $insertQuery = "INSERT INTO users (username, password) VALUES ('$username', '$hashedPassword')";
         if ($conn->query($insertQuery) === TRUE) {
-            header("Location: ../index.php?alert=Usuario Registrado");
+            header("Location: ../pages/index.php?alert=Usuario Registrado");
         } else {
-            header("Location: ../index.php?alert=Error al registrar usuario");
+            header("Location: ../pages/index.php?alert=Error al registrar usuario");
         }
     }
 }
